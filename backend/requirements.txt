@@ -1,0 +1,17 @@
+# --- SCI · Sistema de Cobranzas Inteligente · Backend (FastAPI) ---
+fastapi               # framework de la API
+uvicorn[standard]     # servidor ASGI (desarrollo y producción)
+python-dotenv         # cargar variables desde .env
+pydantic-settings     # configuración tipada
+httpx                 # cliente HTTP async (WhatsApp Graph API, Vapi)
+python-multipart      # parsear webhooks form-encoded (Twilio)
+twilio                # SMS + gestión del número de voz
+openai                # cliente LLM del bot (compatible con Gemini / Groq / OpenAI)
+sqlmodel              # ORM (SQLite): deudores, contactos, opt-out, usuarios
+pandas                # carga del dataset + motor next-best-action
+openpyxl              # leer .xlsx (importación y carga de datos reales)
+pyjwt                 # tokens JWT para autenticación
+bcrypt                # hash de contraseñas
+apscheduler           # motor de horarios (cumplimiento Indecopi)
+holidays              # feriados de Perú (Indecopi Art. 62b)
+neonize               # WhatsApp Web NO oficial (solo pruebas; WA_PROVIDER=neonize)

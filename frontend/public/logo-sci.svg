@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 44" width="116" height="44" role="img" aria-label="SCI">
+  <title>SCI · Sistema de Cobranzas Inteligente</title>
+  <defs>
+    <linearGradient id="sciMarca" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A854"/>
+      <stop offset="1" stop-color="#007539"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Marca: burbuja de contacto con barras de recupero ascendentes -->
+  <path fill="url(#sciMarca)" d="M13 4h14a11 11 0 0 1 11 11v14a11 11 0 0 1-11 11h-6.5l-5 3.6A.9.9 0 0 1 14 42.9V40h-1A11 11 0 0 1 2 29V15A11 11 0 0 1 13 4Z"/>
+  <rect x="10.5" y="24" width="5" height="8" rx="2.5" fill="#FFFFFF" opacity=".7"/>
+  <rect x="17.5" y="19" width="5" height="13" rx="2.5" fill="#FFFFFF" opacity=".85"/>
+  <rect x="24.5" y="13" width="5" height="19" rx="2.5" fill="#FFD100"/>
+
+  <!-- Logotipo -->
+  <text x="48" y="31" font-family="'Plus Jakarta Sans', 'Segoe UI', ui-sans-serif, system-ui, sans-serif"
+        font-size="26" font-weight="800" letter-spacing="0.4" fill="#007539">SCI</text>
+</svg>

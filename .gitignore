@@ -1,0 +1,40 @@
+# ---- Secretos / entorno ----
+.env
+*.env
+!*.env.example
+
+# Sesión de WhatsApp (neonize) — contiene credenciales, NUNCA commitear
+sci_wa*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Base de datos local ----
+*.db
+*.sqlite3
+
+# ---- Carteras reales (pesadas / confidenciales) ----
+# Tablas fuente de una cartera real y el CSV derivado que genera el ETL.
+# La cartera demo (backend/data/deudores.csv) SÍ se versiona: es sintética.
+datos previos/
+backend/data/clientes_reales.csv
+
+# ---- Node / Frontend ----
+node_modules/
+dist/
+.vite/
+*.local
+*.tsbuildinfo
+
+# ---- Editores / SO ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
